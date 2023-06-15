@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/34ca047907.js" crossorigin="anonymous"></script>
+    <title>Edtech-Website</title>
+    <style>
+      body{
+    width: 100%;
+    margin: 0;
+}
+.navbar-brand{
+    color:  rgb(23 37 84);
+    font-weight: bolder;
+}
+.hading{
+    color:  rgb(5, 19, 66);
+    font-weight: bolder;
+}
+.fade-in{
+    animation: fadeIn ease 10s;
+    -webkit-animation: fadeIn ease 10s;
+    -moz-animation: fadeIn ease 10s;
+    -o-animation: fadeIn ease 10s;
+    -ms-animation: fadeIn ease 10s;
+  }
+  .img{
+    width: 10%;
+    height: 10%;
+  }
+  .fa-star{
+    color: gold;
+  }
+  .fa-star-half-stroke{
+    color: gold;
+  }
+  .div1{
+    display: flex;
+    justify-content: space-between;
+  }
+  .fa-facebook{
+    font-size: xx-large;
+  }
+  .fa-square-twitter{
+    font-size: xx-large;
+  }
+  .fa-linkedin{
+    font-size: xx-large;
+  }
+  .fa-tiktok{
+    font-size: xx-large;
+  }
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+@media screen and (max-width:576px) {
+    body{
+        width: 100%;
+    }
+    .div{
+        margin-top: 50px;
+    }
+    .div1{
+      flex-direction: column;
+    }
+}
+    </style>
+</head>
+<body>
+    <header class="container mt-5">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><h4>Pro Edu</h4></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+             <div class="div">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link disabled" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Courses</a>
+                      </li>
+                     <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Deals</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Success</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link disabled" href="#">About</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Register</a>
+                     </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <button class="btn btn-outline-info" type="submit">Register</button>
+                      </form>
+                  </div>
+             </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+        <section>
+            <div class="container mt-5 mb-5">
+                <div class="row">
+                    <div class="col-12">
+                        <div id="carouselExampleCaptions" class="carousel slide">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                              </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active card bg-dark" data-bs-interval="10000">
+                                  <img src="images/cover/cover-1.png" class="card-img fade-in" alt="...">
+                                  <div class="carousel-caption d-none d-md-block d-flex flex-column text-center card-img-overlay mt-5 pt-5">
+                                    <h1 class="text-white mt-5 pt-5 card-title">Get Started Digital Learning</h1>
+                                    <p class="text-white-50 card-text mb-5 pb-5">It is a long established fact that a reader will be distracted by the readable <br> content of a page when looking at its layout.</p>
+                                    <a class="btn btn-info card-text" href="#">Get Started</a>
+                                  </div>
+                                </div>
+                                <div class="carousel-item card bg-dark" data-bs-interval="2000">
+                                  <img src="images/cover/cover-2.jpg" class="card-img fade-in" alt="...">
+                                  <div class="carousel-caption d-none d-md-block d-flex flex-column text-center mb-5 pb-5">
+                                    <h1 class="text-white card-title">Get Started Digital Learning</h1>
+                                    <p class="text-white-50 mb-5 pb-5 card-text">It is a long established fact that a reader will be distracted by the readable <br> content of a page when looking at its layout.</p>
+                                    <a class="btn btn-info card-text" href="#">Get Started</a>
+                                  </div>
+                                </div>
+                                <div class="carousel-item card bg-dark">
+                                  <img src="images/cover/cover-3.jpg" class="card-img fade-in" alt="...">
+                                  <div class="carousel-caption d-none d-md-block d-flex flex-column text-center mb-5 pb-5">
+                                    <h1 class="text-white card-title">Get Started Digital Learning</h1>
+                                    <p class="text-white-50 mb-5 pb-5 card-text">It is a long established fact that a reader will be distracted by the readable <br> content of a page when looking at its layout.</p>
+                                    <a class="btn btn-info card-text" href="#">Get Started</a>
+                                  </div>
+                                </div>
+                                </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="row mb-5">
+                    <div class="col-12 d-flex flex-column align-items-center justify-content-center text-center">
+                        <h1 class="hading">Discover Our Popular Courses</h1>
+                        <p class="text-black-50">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                    </div>
+                </div>
+                <div class="row mb-5">
+                 <div class="col-12 col-lg-6 d-flex">
+                  <img src="images/course/course-1.png" class="img-fluid" alt="">
+                  <div class="d-flex flex-column justify-content-center ms-3">
+                    <h4>Fundamental of ui/ux Design</h4>
+                    <p class="text-black-50">Some quick example text to build on the card title and make up the bulk of the card.</p>
+                    <h5 class="text-info">price: 20s</h5>
+                  </div>
+                 </div>
+                 <div class="col-12 col-lg-6 d-flex div">
+                  <img src="images/course/course-2.png" class="img-fluid" alt="">
+                  <div class="d-flex flex-column justify-content-center ms-3">
+                    <h4>Fundamental of ui/ux Design</h4>
+                    <p class="text-black-50">Some quick example text to build on the card title and make up the bulk of the card.</p>
+                    <h5 class="text-info">price: 20s</h5>
+                  </div>
+                 </div>
+                </div>
+                <div class="row mb-5">
+                 <div class="col-12 col-lg-6 d-flex">
+                  <img src="images/course/course-3.png" class="img-fluid" alt="">
+                  <div class="d-flex flex-column justify-content-center ms-3">
+                    <h4>Fundamental of ui/ux Design</h4>
+                    <p class="text-black-50">Some quick example text to build on the card title and make up the bulk of the card.</p>
+                    <h5 class="text-info">price: 20s</h5>
+                  </div>
+                 </div>
+                 <div class="col-12 col-lg-6 d-flex div">
+                  <img src="images/course/course-4.png" class="img-fluid" alt="">
+                  <div class="d-flex flex-column justify-content-center ms-3">
+                    <h4>Fundamental of ui/ux Design</h4>
+                    <p class="text-black-50">Some quick example text to build on the card title and make up the bulk of the card.</p>
+                    <h5 class="text-info">price: 20s</h5>
+                  </div>
+                 </div>
+                </div>
+                <div class="row mb-5">
+                 <div class="col-12 col-lg-6 d-flex">
+                  <img src="images/course/course-5.png" class="img-fluid" alt="">
+                  <div class="d-flex flex-column justify-content-center ms-3">
+                    <h4>Fundamental of ui/ux Design</h4>
+                    <p class="text-black-50">Some quick example text to build on the card title and make up the bulk of the card.</p>
+                    <h5 class="text-info">price: 20s</h5>
+                  </div>
+                 </div>
+                 <div class="col-12 col-lg-6 d-flex div">
+                  <img src="images/course/course-6.png" class="img-fluid" alt="">
+                  <div class="d-flex flex-column justify-content-center ms-3">
+                    <h4>Fundamental of ui/ux Design</h4>
+                    <p class="text-black-50">Some quick example text to build on the card title and make up the bulk of the card.</p>
+                    <h5 class="text-info">price: 20s</h5>
+                  </div>
+                 </div>
+                </div>
+                <a class="btn btn-info text-white" href="#">See More courses</a>
+                <div class="row mb-5">
+                  <div class="col-12 col-lg-6 mb-5 mt-5">
+                    <img src="images/working.png" class="img-fluid" alt="">
+                  </div>
+                  <div class="col-12 col-lg-6 mb-5 mt-5 pt-5">
+                        <h1>Explore The elearning Institute</h1>
+                        <p class="text-black-50 mt-5">There are many variations of passages of Lorem ipsum available, but the majority have suffered alteration in some form, by injected humor, or <br> randomised words which don<sup>,</sup>t look even slightly believable. If you are going to use a passage of Lorem ipsum, you need to be sure.</p>
+                        <p class="text-black-50">Anything embarrassing hidden in the middle of text. All the Lore ipsum generators on the Internet tend to repeat predefined.</p>
+                       <div class="d-flex mt-5">
+                        <div class="d-flex flex-column">
+                          <h1>3.2k+</h1>
+                          <p class="text-black-50">online course</p>
+                        </div>
+                        <div class="d-flex flex-column ms-5 ps-5">
+                          <h1>600+</h1>
+                          <p class="text-black-50">Expert Member</p>
+                        </div>
+                        <div class="d-flex flex-column ms-5 ps-5">
+                          <h1>1k+</h1>
+                          <p class="text-black-50">Rating $ Review</p>
+                        </div>
+                       </div>
+                       <a class="btn btn-info mt-3" href="#">Read More</a>
+                  </div>
+                </div>
+                <div class="row bg-info mb-5 d-flex align-items-center">
+                 <div class="col-12 col-lg-6">
+                  <h1 class="text-white mt-5 ms-5">Ready to join?</h1>
+                  <p class="text-white-50 mb-5 ms-5">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                 </div>
+                <div class="col-12 col-lg-6">
+                  <button class="btn btn-outline-light ms-5">Register Now</button>
+                </div>
+                </div>
+                <div class="row mt-5 mb-5">
+                  <div class="col-12 d-flex flex-column align-items-center text-center">
+                      <h1 class="w-75">Meet Our Successful Students</h1>
+                      <p class="text-black-50">It is a long established fact that reader will be distracted by <br> the readable content of a page when looking at its layout.</p>
+                  </div>
+                </div>
+                <div class="row mt-5 mb-5">
+                  <div class="col-12 col-lg-3">
+                    <img src="images/student/student-1.png" class="img-fluid" alt="">
+                    <h6 class="mt-3 ms-3">Awlad Hossain</h6>
+                    <p class="text-black-50 ms-3">uiux Designer</p>
+                  </div>
+                  <div class="col-12 col-lg-3">
+                    <img src="images/student/student-2.png" class="img-fluid" alt="">
+                    <h6 class="mt-3 ms-3">Jannatul Islam</h6>
+                    <p class="text-black-50 ms-3">Motion Designer</p>
+                  </div>
+                  <div class="col-12 col-lg-3">
+                    <img src="images/student/student-3.png" class="img-fluid" alt="">
+                    <h6 class="mt-3 ms-3">Imran Hossain</h6>
+                    <p class="text-black-50 ms-3">Graphic Designer</p>
+                  </div>
+                  <div class="col-12 col-lg-3">
+                    <img src="images/student/student-4.png" class="img-fluid" alt="">
+                    <h6 class="mt-3 ms-3">Nishi Akter</h6>
+                    <p class="text-black-50 ms-3">Web Developer</p>
+                  </div>
+                </div>
+                <a class="btn btn-info mb-5" href="#">View All</a>
+                <div class="row">
+                  <div class="col-12 d-flex flex-column align-items-center text-center">
+                    <h1>Some Students Feedback</h1>
+                    <p class="text-black-50">It is a long established fact that reader will be distracted by the readable <br> content of a page when looking at its layout.</p>
+                  </div>
+                </div>
+                <div class="row mt-5 mb-5">
+                  <div class="col-12 col-lg-6 mt-5 mb-5">
+                    <div class="d-flex justify-content-between">
+                      <img src="images/comma.png" alt="">
+                      <div class="">
+                        <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                      </div>
+                    </div>
+                    <p class="text-black-50 mt-3">There are many variations of passages of Lorem ipsum available, but the majority have suffered alteration in some form, by injected humor, or <br> randomised words which don<sup>,</sup>t look even slightly believable. If you are going to use a passage of Lorem ipsum, you need to be sure.</p>
+                   <div class="d-flex">
+                    <img src="images/student/student-5.png" class="img mt-3" alt="">
+                    <div class="d-flex flex-column">
+                      <h6 class="mt-3 ms-3">Awlad Hossain</h6>
+                      <p class="text-black-50 ms-3">ui Designer</p>
+                    </div>
+                   </div>
+                  </div>
+                  <div class="col-12 col-lg-6 mt-5 mb-5">
+                    <div class="d-flex justify-content-between">
+                      <img src="images/comma.png" alt="">
+                      <div class="">
+                        <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                      </div>
+                    </div>
+                    <p class="text-black-50 mt-3">There are many variations of passages of Lorem ipsum available, but the majority have suffered alteration in some form, by injected humor, or <br> randomised words which don<sup>,</sup>t look even slightly believable. If you are going to use a passage of Lorem ipsum, you need to be sure.</p>
+                   <div class="d-flex">
+                    <img src="images/student/student-6.png" class="img mt-3" alt="">
+                    <div class="d-flex flex-column">
+                      <h6 class="mt-3 ms-3">Shanta Akter</h6>
+                      <p class="text-black-50 ms-3">Graphic Designer</p>
+                    </div>
+                   </div>
+                  </div>
+                </div>
+                <div class="row mt-5 mb-5">
+                 <div class="col-12 d-flex flex-column align-items-center text-center">
+                  <h1>Frequently Asked Questions</h1>
+                  <p class="text-black-50">It is a long established fact that reader will be distracted by the readable <br> content of a page when looking at its layout.</p>
+                 </div>
+                </div>
+                <div class="row mt-5 mb-5">
+                  <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          <h5>What other services are you compatible With?</h5>
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <p class="text-black-50 mt-3">There are many variations of passages of Lorem ipsum available, but the majority have suffered alteration in some form, by injected humor, or <br> randomised words which don<sup>,</sup>t look even slightly believable. If you are going to use a passage of Lorem ipsum, you need to be sure there isn<sup>,</sup>t anything embarrassing hidden in the middle of text. All the generators on the.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          <h5>I have a technical i need resolved, Who do i email?</h5>
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <p class="text-black-50 mt-3">There are many variations of passages of Lorem ipsum available, but the majority have suffered alteration in some form, by injected humor, or <br> randomised words which don<sup>,</sup>t look even slightly believable. If you are going to use a passage of Lorem ipsum, you need to be sure there isn<sup>,</sup>t anything embarrassing hidden in the middle of text. All the generators on the.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          <h5>What other services are you compatible with?</h5>
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <p class="text-black-50 mt-3">There are many variations of passages of Lorem ipsum available, but the majority have suffered alteration in some form, by injected humor, or <br> randomised words which don<sup>,</sup>t look even slightly believable. If you are going to use a passage of Lorem ipsum, you need to be sure there isn<sup>,</sup>t anything embarrassing hidden in the middle of text. All the generators on the.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                          <h5>What other services are you compatible with?</h5>
+                        </button>
+                      </h2>
+                      <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <p class="text-black-50 mt-3">There are many variations of passages of Lorem ipsum available, but the majority have suffered alteration in some form, by injected humor, or <br> randomised words which don<sup>,</sup>t look even slightly believable. If you are going to use a passage of Lorem ipsum, you need to be sure there isn<sup>,</sup>t anything embarrassing hidden in the middle of text. All the generators on the.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row div1">
+                 <div class="d-flex flex-column align-items-center">
+                  <div class="mt-5">
+                    <h1>Trusted by over 800+ companies</h1>
+                  </div>
+                  <div class="div1 mt-5">
+                    <img src="images/company/company-1.png" class="ms-5 mt-5 mb-5" alt="">
+                    <img src="images/company/company-2.png" class="ms-5 mt-5 mb-5" alt="">
+                    <img src="images/company/company-3.png" class="ms-5 mt-5 mb-5" alt="">
+                    <img src="images/company/company-4.png" class="ms-5 mt-5 mb-5" alt="">
+                    <img src="images/company/company-5.png" class="ms-5 mt-5 mb-5" alt="">
+                    <img src="images/company/company-6.png" class="ms-5 mt-5 mb-5" alt="">
+                  </div>
+                 </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-dark">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 d-flex flex-column align-items-center mt-5">
+            <h1 class="text-white">Pro Edu</h1>
+            <h6 class="text-white-50 text-center">office 41, Zawaya Buildin, Ghala Muscat, <br> Sultanate of Oman</h6>
+            <p class="text-white-50">Privacy Policy  l  Terms of use</p>
+           <div class="d-flex">
+            <i class="fa-brands fa-facebook text-white"></i>
+            <i class="fa-brands fa-square-twitter text-white ms-3"></i>
+            <i class="fa-brands fa-linkedin text-white ms-3"></i>
+            <i class="fa-brands fa-tiktok text-white ms-3 mb-5"></i>
+           </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
